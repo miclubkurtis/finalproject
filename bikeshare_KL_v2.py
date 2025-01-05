@@ -31,7 +31,7 @@ def get_filters():
         if month in months:
             break
         else:
-            print("Invalid month. Please choose a valid month (January to June) or 'all'.")
+            print("Invalid entry. Please choose a valid month (January to June) or 'all'.")
 
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
